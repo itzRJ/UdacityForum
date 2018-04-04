@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.udacityforum.user_panel">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_summary"
+        android:orderInCategory="100"
+        android:title="summary"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_preferences"
+        android:orderInCategory="100"
+        android:title="preferences"
+        app:showAsAction="never" />
+</menu>
